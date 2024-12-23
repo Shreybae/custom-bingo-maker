@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import PlayerView from './PlayerView';
+import HostView from './HostView'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/player_view" element={<PlayerView />} />
+        <Route path="/host_view" element={<HostView />} />
       </Routes>
     </Router>
   );
