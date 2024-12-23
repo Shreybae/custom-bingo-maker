@@ -5,7 +5,6 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
     apiKey: "AIzaSyBUuhPui6jfjQnhc3-N9608kzrDTwJP4sk",
     authDomain: "phone-bingo.firebaseapp.com",
-    databaseURL: "https://phone-bingo-default-rtdb.firebaseio.com",
     projectId: "phone-bingo",
     storageBucket: "phone-bingo.firebasestorage.app",
     messagingSenderId: "240019434239",
